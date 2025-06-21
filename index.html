@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Coin Tranquille - 静かな都会の隠れ家カフェ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">
+                <a href="#">
+                    <i class="fas fa-coffee"></i>
+                    Le Coin Tranquille
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#access">Access</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Reserve</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>都会の隠れ家</span>
+                </div>
+                <h2 class="hero-title">Le Coin Tranquille</h2>
+                <p class="hero-subtitle">都会の喧騒を忘れ、静かなひとときを。</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <i class="fas fa-calendar-alt"></i>
+                        今すぐ予約する
+                    </a>
+                    <a href="#about" class="btn btn-outline btn-large">
+                        <i class="fas fa-info-circle"></i>
+                        詳しく見る
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">About Us</span>
+                    <h2 class="section-title">カフェについて</h2>
+                    <p class="section-subtitle">都会の片隅に佇む、特別な空間</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h3>心を癒す空間</h3>
+                                <p>Le Coin Tranquilleは、都会の片隅に佇む、隠れ家のようなカフェです。落ち着いた空間で、こだわりのコーヒーや手作りのスイーツをゆっくりと味わい、日々の疲れを癒してください。</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h3>あなただけの時間</h3>
+                                <p>読書をしたり、静かに考え事をしたり、あるいは大切な人と語り合ったり。お客様にとって、最高の「静かな隅っこ」でありたいと願っています。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="images/cafe_interior.jpg" alt="カフェ内装">
+                            <div class="image-overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Our Menu</span>
+                    <h2 class="section-title">こだわりメニュー</h2>
+                    <p class="section-subtitle">厳選された食材で作る特別なひととき</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <img src="images/coffee.jpg" alt="こだわりのコーヒー">
+                            <div class="menu-overlay">
+                                <span class="menu-tag">人気</span>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h3>ハンドドリップコーヒー</h3>
+                            <p>厳選された豆を丁寧にハンドドリップで。豊かな香りと深い味わいをお楽しみください。</p>
+                            <div class="menu-footer">
+                                <span class="price">¥650〜</span>
+                                <button class="btn btn-sm">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <img src="images/cake.jpg" alt="季節のタルト">
+                            <div class="menu-overlay">
+                                <span class="menu-tag">限定</span>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h3>季節のフルーツタルト</h3>
+                            <p>旬のフルーツをふんだんに使った、パティシエ特製タルト。数量限定です。</p>
+                            <div class="menu-footer">
+                                <span class="price">¥780</span>
+                                <button class="btn btn-sm">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image">
+                            <img src="images/sandwich.jpg" alt="特製サンドイッチ">
+                            <div class="menu-overlay">
+                                <span class="menu-tag">新作</span>
+                            </div>
+                        </div>
+                        <div class="menu-content">
+                            <h3>特製クロックムッシュ</h3>
+                            <p>とろけるチーズとハムが絶妙なハーモニー。ランチにもぴったりです。</p>
+                            <div class="menu-footer">
+                                <span class="price">¥850</span>
+                                <button class="btn btn-sm">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Gallery</span>
+                    <h2 class="section-title">ギャラリー</h2>
+                    <p class="section-subtitle">Le Coin Tranquilleの日常</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/gallery_1.jpg" alt="ギャラリー画像1">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery_2.jpg" alt="ギャラリー画像2">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery_3.jpg" alt="ギャラリー画像3">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery_4.jpg" alt="ギャラリー画像4">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery_5.jpg" alt="ギャラリー画像5">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery_6.jpg" alt="ギャラリー画像6">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="access section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Access</span>
+                    <h2 class="section-title">アクセス・店舗情報</h2>
+                    <p class="section-subtitle">お気軽にお越しください</p>
+                </div>
+                <div class="access-content">
+                    <div class="access-info">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>住所</h3>
+                                <p>東京都〇〇区△△町1-2-3<br>〇〇ビル1F</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>電話番号</h3>
+                                <p>03-XXXX-XXXX</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>営業時間</h3>
+                                <p>10:00 - 19:00<br>(L.O. 18:30)</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-calendar-times"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>定休日</h3>
+                                <p>毎週水曜日</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="access-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.2315743492527!2d139.75330361521446!3d35.68948758019808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b901a0d33e9%3A0xc0d7c711a5b8a0d!2z5p2x5rqA6aeF!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta section-padding">
+            <div class="container text-center">
+                <div class="cta-content">
+                    <div class="cta-badge">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Reservation</span>
+                    </div>
+                    <h2 class="section-title">ご予約・お問い合わせ</h2>
+                    <p class="cta-message">Le Coin Tranquilleで、ゆったりとした時間をお過ごしください。<br>ご予約はこちらから。</p>
+                    <div class="cta-actions">
+                        <a href="#" class="btn btn-primary btn-large">
+                            <i class="fas fa-calendar-alt"></i>
+                            オンライン予約はこちら
+                        </a>
+                        <a href="tel:03-XXXX-XXXX" class="btn btn-outline btn-large">
+                            <i class="fas fa-phone"></i>
+                            03-XXXX-XXXX
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>
+                        <i class="fas fa-coffee"></i>
+                        Le Coin Tranquille
+                    </h3>
+                    <p>都会の喧騒を忘れ、静かなひとときを。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#access">Access</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Le Coin Tranquille. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="gallery-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script>
+        // スムーススクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // ヘッダーの背景変更
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // --- ギャラリー画像拡大表示 ---
+        const modal = document.getElementById('gallery-modal');
+        const modalImg = document.getElementById('modal-image');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const closeModal = document.querySelector('.modal-close');
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const img = item.querySelector('img');
+                modal.style.display = "block";
+                modalImg.src = img.src;
+                document.body.classList.add('modal-open');
+            });
+        });
+
+        const hideModal = () => {
+            modal.style.display = "none";
+            document.body.classList.remove('modal-open');
+        }
+
+        closeModal.addEventListener('click', hideModal);
+
+        modal.addEventListener('click', (e) => {
+            // 画像の外側をクリックした時にモーダルを閉じる
+            if (e.target === modal) {
+                hideModal();
+            }
+        });
+    </script>
+
+</body>
+</html>
